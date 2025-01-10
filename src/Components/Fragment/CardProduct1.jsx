@@ -23,12 +23,12 @@ const Header = (props) => {
 };
 
 const Body = (props) => {
-    const { children, title } = props;
+    const { children, name } = props;
     return (
         <div className="px-6 py-4 text-center">
             <a href="#">
                 <h5 className="text-2xl font-bold tracking-tight text-white hover:underline">
-                    {title}
+                    {name}
                 </h5>
                 <p className="text-sm text-gray-200 mt-2">
                     {children}
