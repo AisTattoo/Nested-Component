@@ -29,7 +29,7 @@ const router = createBrowserRouter([
   {
     path: "/product",
     element: <ProductPage />,
-  }
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(

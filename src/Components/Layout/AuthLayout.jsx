@@ -1,5 +1,10 @@
+import { Link, useLocation } from "react-router-dom";
+
 const AuthLayout = (props) => {
-  const { children, title } = props;
+  const { children, title, type } = props;
+  const location = useLocation();
+  const isProfilePage = location.pathname === "/profile";
+  
   return (
     <div className="flex justify-center min-h-screen items-center">
       <div className="w-full max-w-xs">

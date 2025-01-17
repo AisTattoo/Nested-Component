@@ -30,7 +30,7 @@ const FormRegister = () => {
         />
         <Button className="bg-blue-600 w-full">Register</Button>
       </form>
-    )
+    );
 };
 
 export default FormRegister;

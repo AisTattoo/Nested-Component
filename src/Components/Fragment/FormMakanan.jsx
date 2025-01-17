@@ -18,7 +18,7 @@ const FormMakanan = () => {
         />
         <Button className="bg-blue-600 w-full">Enter</Button>
       </form>
-    )
+    );
 };
 
 export default FormMakanan;
